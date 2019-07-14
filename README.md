@@ -14,6 +14,8 @@ Windowsの場合、OSのエディションによってインストールの方�
 [Windows (Pro) 版](https://github.com/Takahiro55555/prog5_docker/wiki/windows_usage)\
 Mac OS (Coming soon...)
 
+※）アニメーションGIFを複数利用しているため、モバイル回線から閲覧する場合はお気を付けください。（約37MB）
+
 ### DBサーバ
 - OS: postgresql9.2
 - ホスト名: 演習室と同じ
