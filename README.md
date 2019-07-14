@@ -10,6 +10,10 @@ Windowsの場合、OSのエディションによってインストールの方�
 [Windows10 Pro](https://qiita.com/ksh-fthr/items/6b1242c010fac7395a45)の場合\
 なお、参考サイトは適当なので分からない箇所があったら適宜ググってください。
 
+### 使い方
+[Windows (Pro) 版](https://github.com/Takahiro55555/prog5_docker/wiki/windows_usage)\
+Mac OS (Coming soon...)
+
 ### DBサーバ
 - OS: postgresql9.2
 - ホスト名: 演習室と同じ
@@ -37,34 +41,3 @@ prog5_docker/
 ├── windows_02_docker_new_window.bat  # Windowsで仮想マシンにログインする（bash）
 └── windows_03_docker_stop.bat        # Windowsで仮想マシンを停止する
 ```
-
-## How to use
-1. プロジェクト（作業）ディレクトリを`project`とします。
-2. 作業ディレクトリに、本リポジトリ`prog5_docker`を置きます。
-
-```
-project # ここに演習用のファイルやディレクトリが置いてあると仮定
-├── ex10/ # 演習のプログラムファイル
-├── ex11/ # 演習のプログラムファイル
-├── ex12/ # 演習のプログラムファイル
-├── prog5_docker/ # このGitHubのリポジトリを丸々コピーしてくる
-├── tmp.c # 演習のプログラムファイル
-└── tmp.h # 演習のプログラムファイル
-```
-
-3. 仮想マシンにログインしたら、`~/work/`に移動してください。
-4. 仮想マシンから、`project`ディレクトリの中のファイルを実行・編集・追加することができます。
-
-```
-work # ここに移動した
-├── ex10/ # projectディレクトリにあるディレクトリ
-├── ex11/ # projectディレクトリにあるディレクトリ
-├── ex12/ # projectディレクトリにあるディレクトリ
-├── prog5_docker/
-├── tmp.c # projectディレクトリにあるファイル
-└── tmp.h # projectディレクトリにあるファイル
-```
-
-
-OSに応じた（シェル）スクリプトを実行すると、利用できると思います。\
-なお、最初に起動する際はイメージをダウンロードするため、5分ほど待機する必要があります。
