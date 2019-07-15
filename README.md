@@ -1,7 +1,7 @@
 # prog5_docker
 
 ## About
-プログラミング演習５の開発環境をまとめたものです。\
+プログラミング演習５の開発環境です。個人PCで利用する前提で作成しました。\
 演習室と同じDBの設定のままでDBに接続、使用することができます。
 
 なお、実際に使用するには[Docker](https://qiita.com/gold-kou/items/44860fbda1a34a001fc1)が必要です。\
@@ -17,10 +17,11 @@ Mac OS (Coming soon...)
 ※）アニメーションGIFを複数利用しているため、モバイル回線から閲覧する場合はお気を付けください。（約37MB）
 
 ### DBサーバ
-- OS: postgresql9.2
+- DB: PostgreSQL 9.2
 - ホスト名: 演習室と同じ
-- データベース名: db??（演習室と同じ）
-- ユーザ名: dbuser??（演習室と同じ）
+- データベース名: 演習室と同じ
+- ユーザ名: 演習室と同じ
+- パスワード： 演習室と同じ
 
 ### APサーバ・クライアント
 - Ubuntu16.04
@@ -35,11 +36,11 @@ prog5_docker/
 │   │   └── Dockerfile
 │   └── ubuntu
 │       └── Dockerfile
-├── Readme.md
+├── README.md
 ├── mac_01_docker_start.sh            # Macで仮想マシン（コンテナ）を起動する
 ├── mac_02_docker_new_window.sh       # Macで仮想マシンにログインする（bash）
 ├── mac_03_docker_stop.sh             # Macで仮想マシンを停止する
-├── windows_01_docker_start.bat       # Windowsで仮想マシン（コンテナ）を起動する
+├── windows_01_docker_start.bat       # Windowsで仮想マシンを起動する
 ├── windows_02_docker_new_window.bat  # Windowsで仮想マシンにログインする（bash）
 └── windows_03_docker_stop.bat        # Windowsで仮想マシンを停止する
 ```
