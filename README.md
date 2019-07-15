@@ -4,7 +4,7 @@
 プログラミング演習５の開発環境です。個人PCで利用する前提で作成しました。\
 演習室と同じDBの設定のままでDBに接続、使用することができます。
 
-なお、実際に使用するには[Docker](https://qiita.com/gold-kou/items/44860fbda1a34a001fc1)が必要です。\
+なお、実際に使用するには[Docker](https://www.docker.com/products/docker-desktop)が必要です。\
 Windowsの場合、OSのエディションによってインストールの方法が異なるみたいです。\
 [Windows10 Home](https://qiita.com/idani/items/fb7681d79eeb48c05144)の場合\
 [Windows10 Pro](https://qiita.com/ksh-fthr/items/6b1242c010fac7395a45)の場合\
@@ -24,7 +24,7 @@ Mac OS (Coming soon...)
 - パスワード： 演習室と同じ
 
 ### APサーバ・クライアント
-- Ubuntu16.04
+- OS: Ubuntu16.04
 - ユーザ名: penshu
 
 ### ファイル構成
